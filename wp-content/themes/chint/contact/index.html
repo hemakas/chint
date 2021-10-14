@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html manifest="/denisfrietman.manifest">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title></title>
+
+<!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/icons.css">
+<link rel="stylesheet" href="../css/style.css">
+<link href="form-style.css" rel="stylesheet" type="text/css" media="screen">
+
+<script src="jquery.tools.min.js"></script>
+<script src="jquery.validate.min.js" type="text/javascript"></script>
+<script src="script.js"></script>
+
+<!-- ** FONTS ** 
+================================================== -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600' rel='stylesheet' type='text/css'>
+    
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+
+<form id="contact-form" action="#contact" method="post">		
+    <fieldset id="contact-form">
+        <dl class="col-md-4 col-sm-12 col-xs-4">
+            <dd><input id="contactname" name="contactname" class="required col-sm-12 col-xs-12" title="That ain't no name" type="text" placeholder="Your name"></dd>
+        </dl>
+        
+        <dl class="col-md-4 col-sm-12 col-xs-4">
+            <dd><input id="email" name="email" class="required email col-sm-12 col-xs-12" title="oops! we need an email" type="email" placeholder="Email address" /></dd>
+        </dl>
+        
+        <dl class="col-md-4 col-sm-12 col-xs-4">
+            <dd><input id="number" name="number" class="number col-sm-12 col-xs-12" type="text" placeholder="Phone number" /></dd>
+        </dl>
+        
+        <dl class="col-md-12 col-sm-12 col-xs-12">
+            <dd><input id="subject" name="subject" class="required col-sm-12 col-xs-12" title="You forgot the subject" placeholder="Subject" /></dd>
+        </dl>
+        
+        <dl class="col-md-12 col-sm-12 col-xs-12">
+            <dd><textarea id="message" name="message" class="required col-sm-12 col-xs-12" title="forgetting something?" rows="10" cols="12" placeholder="Message"></textarea></dd>
+        </dl>
+        
+        <p class="col-md-12" style="overflow:hidden;">
+            <button class="btn-flat btn btn-1e" value="Submit" type="submit" name="submit">
+                <i class="fa fa-check"></i> Send Message 
+            </button>
+        </p>
+    </fieldset>
+</form>
+        
+</body>
+</html>

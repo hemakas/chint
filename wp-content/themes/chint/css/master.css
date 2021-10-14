@@ -1,0 +1,33 @@
+/* FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300&display=swap');
+
+/* MAIN CSS */
+@import url('bootstrap.min.css');
+@import url('custom.css');
+@import url('inner.css');
+@import url('home.css');
+@import url('responsive.css');
+
+/* @import url('animate.css'); */
+@import url('debugging.css');
+@import url('preload.css');
+@import url('all.css');
+
+/* PLUGIN CSS */
+
+
+/* Menu */
+@import url('plugins/menuzord.css');
+
+/* Slider */
+@import url('plugins/slider.css');
+
+/*Parallax*/
+@import url('plugins/dzsparallaxer.css');
+
+/*Portfolio*/
+@import url('plugins/layout.css');
+
+/*Portfolio*/
+@import url('plugins/popup-gallery.css');
+
