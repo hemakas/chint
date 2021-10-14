@@ -11,6 +11,9 @@ wp-content/*
 # ignore the chint theme images
 wp-content/themes/chint/images/*
 
+# ignore the chint theme vidoes
+wp-content/themes/chint/vidoes/*
+
 # ignore these plugins
 wp-content/plugins/hello.php
 
