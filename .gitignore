@@ -12,7 +12,7 @@ wp-content/*
 wp-content/themes/chint/images/*
 
 # ignore the chint theme vidoes
-wp-content/themes/chint/vidoes/*
+wp-content/themes/chint/videos/*.mp4
 
 # ignore these plugins
 wp-content/plugins/hello.php
